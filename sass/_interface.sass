@@ -1,0 +1,41 @@
+body
+    color: $text-color
+    +light
+img 
+    max-width: 100% 
+a 
+    text-decoration: none
+    color: $text-color
+.section
+    padding: 80px 0
+    &-title
+        font-size: 30px
+        +bold 
+        text-align: center
+    &__title
+        margin-bottom: 60px
+.button
+    border: none
+    padding: 10px 21px
+    font-size: 12px
+    border-radius: 5px
+    background-color: $button-color
+    +bold
+    color: #fff
+    text-decoration: none
+    
+
+
+
+
+@media (max-width: 576px)
+    .button
+        font-size: 12px
+        &-o
+        font-size: 10px
+    .section
+        padding: 60px 0
+        &-title 
+            font-size: 24px
+    .section
+        padding: 40px 0
